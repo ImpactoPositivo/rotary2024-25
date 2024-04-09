@@ -1,0 +1,357 @@
+@charset "UTI-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+@font-face {
+    font-family: 'Frutiger Bold';
+    src: url('../_fontes/FTB.ttf') format('truetype');
+    font-weight: bold;
+
+    font-family: 'Frutiger Light Condensed';
+    src: url('../_fontes/FTLC.ttf') format('truetype');
+    font-weight: lighter;
+
+    font-family: 'Frutuger Ultra Black';
+    src: url('../_fontes/FTUBL.ttf') format('truetype');
+    font-weight: bolder;
+}
+
+:root {
+    --cor1: #00a8e4;
+    --cor2: #2172c3;
+    --cor3: #3155a4;
+    --cor4: #ffaf3e;
+    --cor5: #d51668;
+    --cor6: #e02927;
+    --cor7: #54565a;
+
+    --fonte1: 'Frutiger Light Condensed', cursive;
+    --fonte2: 'Frutiger Bold', cursive;
+    --fonte3: 'Frutuger Ultra Black'. cursive;
+    --fonte4: 'Open Sans', sans-serif;
+    --fonte5: 'Open Sans', sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 100vw;
+    background-color: white;
+}
+
+main {
+    font-family: 'Open Sans', sans-serif;;
+    max-width: 400px;
+    max-height: 650px;
+    margin: auto;     
+}
+
+.corpo {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.bg2 {
+    flex-grow: 1;
+}    /*tentativa de ficar o rodape*/
+
+
+header figure {
+    background-color: #3155a4;
+}
+
+header img#logo {
+    width: 35%;
+    padding: 10px; 
+}
+
+header div#cabecario {
+    background-color: #ffaf3e;
+    border-left: 1px solid #3155a4;
+    border-right: 1px solid #3155a4;
+    padding: 5px;
+    color: var(cor3);
+}
+
+header h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+header h2 {
+    font-size: .8em;
+    text-align: center;
+    padding: 5px;
+}
+
+header h3 {
+    font-size: .8em;
+    text-align: center;
+    background-color: rgba(211, 211, 211, 0.5);
+    padding: 5px;
+}
+
+header nav {
+    background-color: rgba(211, 211, 211, 0.5);
+    vertical-align: middle;
+    text-align: center;
+    padding: 2px 0px 4px 0px;
+}
+
+header nav a {
+    background-color: var(--cor1);
+    padding: 5px 4px;
+    font-size: 0.6em;
+    font-weight: bold;
+    color: white;
+    border: 1px solid var(--cor1);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    background-color: var(--cor4);
+    color: var(--cor3);
+    text-decoration: underline;  
+}
+
+section {
+    background-color: white;
+    border-left: 1px solid #3155a4;
+    border-right: 1px solid #3155a4;
+    color: #3b3535;
+    padding: 5px;
+}
+
+.bg2 h1 {
+    font-size: 1em;
+    text-align: center; 
+    padding-top: 5px;
+    /*padding-bottom: 5px;*/
+}
+
+.bg2 h2 {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: justify;
+    padding-top: 5px;
+    color: #ffaf3e;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.bg2 h3 {
+    font-size: .95em;
+    font-weight: bold;
+    text-align: justify;
+    padding: 5px 10px;
+}
+
+.bg2 ul {
+    font-size: 0.85em;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+.bg2 p {
+    text-align: justify;
+    font-size: .9em;
+    padding: 0px 10px;
+    line-height: 1.8em;
+}
+
+section a {
+    color: #3b3535;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+section a:hover {
+    color: var(--cor1);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+img#foto {
+    width: 40%;
+    padding: 0px 10px;
+    float: left;
+}
+
+img#presidente {
+    width: 35%;
+    padding: 10px;
+    float: left;
+}
+
+img#acao {
+    width: 95%;
+    margin: auto;
+    padding: 10px 9px;
+}
+
+div#acao {
+    display: block;
+    padding: 10px;
+}
+
+div#acao img {
+    width: 100%;
+}
+
+div#acao figcaption {
+    color: var(--cor3);
+    font-size: .8em;
+}
+
+div#enfase p {
+    font-size: .7em;
+    line-height: 1.5em;
+    text-align: justify;
+    padding-top: 5px;
+}
+
+div#espaco {
+    padding-left: 88px;
+}
+
+article {
+    background-color: rgba(223, 222, 222, 0.5);    border-left: 1px solid #3155a4;
+    border-right: 1px solid #3155a4;
+}
+
+.bg2 article h2 {
+    font-size: 1em;
+    text-align: center;
+    color: var(--cor3);
+    padding-top: 5px;
+}
+
+.bg2 article h3 {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--cor4);
+    text-align: center;
+    padding: 10px;
+}
+
+.bg2 article p {
+    font-size: .9em;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+article#origem {
+    background-color: white;
+}
+
+article#origem  h1 {
+    font-size: 1em;
+    text-align: center;
+    padding: 10px;
+}
+
+article#origem  h2 {
+    font-size: 1em;
+    color: var(--cor4);
+    text-align: left;
+    padding: 10px 0px 0px 10px;
+}
+
+article#origem  p {
+    font-size: .9em;
+    text-align: justify;
+    padding: 0px 10px 10px 10px;
+}
+
+.bg2 table {
+    width: 95%;
+    margin: auto;
+    border-collapse: collapse;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.bg2 table th {
+    border: 1px solid #3155a4;
+    background-color: #2172c3;
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.bg2 table td {
+    border: 1px solid #3155a4;
+    color: #3155a4;
+    font-size: 0.8em;
+    text-align: left;
+    padding-left: 10px;
+}
+
+table.honorario {
+    max-width: 350px;
+}
+
+table.honorario th {
+    border: 1px solid white;
+    font-size: 1em;
+}
+
+table.honorario td {
+    border: 1px solid white;
+    font-size: 1em;    
+}
+
+table.honorario img {
+    width: 80px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: #3155a4;
+    border-left: 1px solid #3155a4;
+    border-right: 1px solid #3155a4;
+    font-family: var(fonte4);
+    color: white;
+    text-align: center;
+}
+
+div#clique {
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+    }
+
+div#clique a {
+    background-color: #ffaf3e;
+    border-radius: 15px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.219);
+}
+
+div#clique a:hover {
+    background-color: #00a8e4;
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer h1 {
+    font-size: 1em;
+}
+
+footer > p {
+    font-size: .8em;
+}
