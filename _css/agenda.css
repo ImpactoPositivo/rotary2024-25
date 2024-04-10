@@ -19,12 +19,12 @@
 }
 
 :root {
-    --cor1: #00a8e4;
-    --cor2: #2172c3;
-    --cor3: #3155a4;
-    --cor4: #ffaf3e;
-    --cor5: #d51668;
-    --cor6: #e02927;
+    --cor1: #f26523;
+    --cor2: #00adbb;
+    --cor3: #f7a81b;
+    --cor4: #0067c8;
+    --cor5: #e04403;
+    --cor6: #006271;
     --cor7: #54565a;
 
     --fonte1: 'Frutiger Light Condensed', cursive;
@@ -57,7 +57,7 @@ header {
     border-right: 1px solid var(--cor2);
 }
 header figure {
-    background-color: #3155a4;
+    background-color: #00adbb;
 }
 
 header img#logo {
@@ -174,9 +174,9 @@ table tr {
 }
 
 footer {
-    background-color: #3155a4;
-    border-left: 1px solid #3155a4;
-    border-right: 1px solid #3155a4;
+    background-color: #00adbb;
+    border-left: 1px solid #00adbb;
+    border-right: 1px solid #00adbb;
     font-family: var(fonte4);
     color: white;
     text-align: center;
