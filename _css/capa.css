@@ -68,6 +68,16 @@ header div#cabecario {
     color: var(cor3);
 }
 
+header div#cabecario a{
+    font-size: .8em;
+    color: rgb(152, 152, 152);
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
+
 header h1 {
     font-size: 1.5em;
     text-align: center;
@@ -116,12 +126,16 @@ section h1 {
 }
 
 section h2 {
-    font-size: .8em;
+    font-family: var(--fonte4);
+    color: rgb(80, 79, 79);
+    font-size: .7em;
     text-align: center;
 }
 
 section h3 {
-    font-size: .8em;
+    font-family: var(--fonte4);
+    color: rgb(80, 79, 79);
+    font-size: .7em;
     text-align: center;
 }
 
