@@ -63,7 +63,7 @@ header div#cabecario {
     background-color: #f7a81b;
     border-left: 1px solid #00adbb;
     border-right: 1px solid #00adbb;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-bottom: 20px;
     color: var(cor3);
 }
@@ -204,4 +204,17 @@ footer h1 {
 
 footer > p {
     font-size: .8em;
+}
+
+footer a{
+    font-size: .8em;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;  
+}
+
+footer a:hover{
+    color: var(--cor3);
+    text-decoration: underline;
 }
