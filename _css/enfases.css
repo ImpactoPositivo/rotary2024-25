@@ -157,7 +157,7 @@ section {
 .bg2 ul {
     font-size: 0.85em;
     padding-top: 10px;
-    padding-left: 25px;
+    padding-left: 10px;
     list-style: none;
 }
 
@@ -170,7 +170,24 @@ section {
     text-align: justify;
     font-size: .9em;
     padding: 0px 10px;
-    line-height: 1.8em;
+    line-height: 1.5em;
+}
+
+.bg2 ol {
+    list-style-position: inside;
+    padding: 10px;
+}
+
+.bg2 ol >li {
+    color: #f7a81b;
+    font-weight: bold;
+    font-size: .9em;
+}
+
+.bg2 ol li .project{
+    padding: 5px 15px;
+    color: black;
+    font-weight: 200;
 }
 
 section a {
