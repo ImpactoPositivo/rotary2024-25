@@ -158,6 +158,12 @@ section {
     font-size: 0.85em;
     padding-top: 10px;
     padding-left: 25px;
+    list-style: none;
+}
+
+.bg2 .seta {
+    padding-right: 15px;
+    padding-left: 5px;
 }
 
 .bg2 p {
