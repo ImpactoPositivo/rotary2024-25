@@ -119,22 +119,27 @@ section {
     text-align: justify;
 }
 
-.bg2 .cidada img {
-    width: 8vw;
+.bg2 table.cidada img {
+    width: 10vw;
     padding: 10px;
+    margin: auto;
 }
 
-.bg2 .cidada tbody tr td{
-    font-size: .8em;
+.bg2 table.cidada td {
+    padding: 0px;
+}
+
+.bg2 table.cidada tbody tr td{
+    font-size: .9em;
     text-align: center;
 }
 
-.bg2 .cidada .destaque {
+.bg2 table.cidada .destaque {
     background-color: #ffaf3e82;
     font-weight: bold;
 }
 
-.bg2 .cidada tbody tr td p{
+.bg2 table.cidada tbody tr td p{
     font-size: .9em;
     text-align: center;
 }
