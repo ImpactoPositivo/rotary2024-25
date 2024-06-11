@@ -119,9 +119,9 @@ section {
     text-align: justify;
 }
 
-.bg2 table.cidada img {
-    width: 10vw;
-    padding: 10px;
+.bg2 table.cidada tbody tr td img {
+    width: 25vw;
+    padding: 5px;
 }
 
 .bg2 table.cidada td {
