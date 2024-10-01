@@ -19,12 +19,12 @@
 }
 
 :root {
-    --cor1: #00a8e4;
-    --cor2: #2172c3;
-    --cor3: #3155a4;
-    --cor4: #ffaf3e;
-    --cor5: #d51668;
-    --cor6: #e02927;
+    --cor1: #f26523;
+    --cor2: #00adbb;
+    --cor3: #f7a81b;
+    --cor4: #0067c8;
+    --cor5: #e04403;
+    --cor6: #006271;
     --cor7: #54565a;
 
     --fonte1: 'Frutiger Light Condensed', cursive;
@@ -52,7 +52,7 @@ main {
 }
 
 header figure {
-    background-color: #3155a4;
+    background-color: var(--cor2);
 }
 
 header img#logo {
@@ -62,8 +62,8 @@ header img#logo {
 
 header div#cabecario {
     background-color: #ffaf3e;
-    border-left: 1px solid #3155a4;
-    border-right: 1px solid #3155a4;
+    border-left: 1px solid var(--cor3);
+    border-right: 1px solid var(--cor3);
     padding: 5px;
     color: var(cor3);
 }
@@ -113,8 +113,8 @@ header nav a:hover {
 
 section {
     background-color: white;
-    border-left: 1px solid #3155a4;
-    border-right: 1px solid #3155a4;
+    border-left: 1px solid var(--cor2);
+    border-right: 1px solid var(--cor2);
     color: #3b3535;
     padding: 5px;
 }
@@ -217,9 +217,9 @@ section #sign {
 }
 
 footer {
-    background-color: #3155a4;
-    border-left: 1px solid #3155a4;
-    border-right: 1px solid #3155a4;
+    background-color: var(--cor2);
+    border-left: 1px solid var(--cor2);
+    border-right: 1px solid var(--cor2);
     font-family: var(fonte4);
     color: white;
     text-align: center;
