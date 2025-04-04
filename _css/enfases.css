@@ -195,8 +195,9 @@ section {
 }
 
 .bg2 .p4-text .p4-list li{
+    color: var(--cor4);
+    font-weight: 600;
     list-style-type: disc;
-    margin-left: 15px;
     padding-bottom: 3px;
 }
 
@@ -234,7 +235,7 @@ section {
     color: var(--cor7);
     font-weight: bold;
     margin: 0px;
-    padding: 0px 0px 2px 0px;
+    padding: 10px 0px 2px 0px;
     text-align: left;
 }
 
